@@ -3,12 +3,11 @@
     "name": "weatherApp",
     "slug": "weatherApp",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "icon": "./assets/weather.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/weather.png",
+      "resizeMode": "contain"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +20,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/weather.png"
+      },
+      "package": "com.moroshandmitriy.weatherApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/weather.png"
     }
   }
 }
